@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.ydrebox{
+	flex-wrap: wrap;
+	width: 200px;
+	padding: 0.5%;
+	background: #B6B6B6;
+	border: 2px solid grey;
+}
+.tekst1{
+	animation-name: tekst1, fade-out;
+	animation-duration: 3s;
+	transition-timing-function: ease-out;
+	animation-fill-mode: both;
+	text-align: center;
+	font-size: 1.5em;
+}
+@keyframes tekst1 {
+ 0% {transform: translate(-20px, 0px);}
+ 100% {transform: translate(50px, 0px);}
+ }
+@keyframes fade-out {
+    0% { opacity: 1; z-index: 1; }
+    100% { opacity: 0 ; z-index: -1; }
+}
+.logo img{
+	animation-name: logo;
+	width: 100px;
+	height: auto;
+	animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes logo{
+    0% { opacity: 0 ; z-index: -1; } 
+    100% { opacity: 1; z-index: 2; }
+}
+.banner img{
+	padding-top: 6%;
+	width: 100%;
+	height: auto;
+}
+
+.tekst2{
+	font-size: 1.5em;
+	text-align: center;
+}
+button{
+	font-size: 1.5em;
+	background-color: #5D5BA7;
+	color: white;
+	text-align: center;
+}
