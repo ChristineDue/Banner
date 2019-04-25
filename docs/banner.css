@@ -9,7 +9,7 @@
 }
 .tekst1{
 	animation-name: tekst1;
-	animation-duration: 5s;
+	animation-duration: 4s;
 	transition-timing-function: ease-out;
 	animation-fill-mode: backwards;
 	text-align: center;
@@ -22,7 +22,7 @@
 
 .banner img{
 	animation-name: tekst1;
-	animation-duration: 10s;
+	animation-duration: 4s;
 	transition-timing-function: ease-out;
 	animation-fill-mode: backwards;
 	padding-top: 6%;
@@ -39,7 +39,7 @@
 	text-align: center;
 }
 button{
-	animation-duration: 10s;
+	animation-duration: 4s;
 	animation-fill-mode: backwards;
 	
 	transition-timing-function: ease-out;
