@@ -11,7 +11,7 @@
 	animation-name: tekst1, fade-out;
 	animation-duration: 3s;
 	transition-timing-function: ease-out;
-	animation-fill-mode: both;
+	animation-fill-mode: backwards;
 	text-align: center;
 	font-size: 1.5em;
 }
