@@ -8,45 +8,44 @@
 	border: 2px solid grey;
 }
 .tekst1{
-	animation-name: tekst1, fade-out;
-	animation-duration: 3s;
+	animation-name: tekst1;
+	animation-duration: 5s;
 	transition-timing-function: ease-out;
 	animation-fill-mode: backwards;
 	text-align: center;
 	font-size: 1.5em;
 }
 @keyframes tekst1 {
- 0% {transform: translate(-20px, 0px);}
- 100% {transform: translate(50px, 0px);}
+ 0% {transform: translate(-100px, 0px);}
+ 100% {transform: translate(0px, 0px);}
  }
-@keyframes fade-out {
-    0% { opacity: 1; z-index: 1; }
-    100% { opacity: 0 ; z-index: -1; }
-}
-.logo img{
-	animation-name: logo;
-	width: 100px;
-	height: auto;
-	animation-duration: 3s;
-    animation-iteration-count:1;
-    animation-delay: 3.5s;
-    animation-fill-mode: forwards;
-}
-@keyframes logo{
-    0% { opacity: 0 ; z-index: -1; } 
-    100% { opacity: 1; z-index: 2; }
-}
+
 .banner img{
+	animation-name: tekst1;
+	animation-duration: 10s;
+	transition-timing-function: ease-out;
+	animation-fill-mode: backwards;
 	padding-top: 6%;
 	width: 100%;
 	height: auto;
 }
 
 .tekst2{
+	animation-name: tekst1;
+	animation-duration: 10s;
+	transition-timing-function: ease-out;
+	animation-fill-mode: backwards;
 	font-size: 1.5em;
 	text-align: center;
 }
 button{
+	animation-duration: 10s;
+	animation-fill-mode: backwards;
+	
+	transition-timing-function: ease-out;
+	position: relative;
+	left: 20px;
+	top: 5px;
 	font-size: 1.5em;
 	background-color: #5D5BA7;
 	color: white;
